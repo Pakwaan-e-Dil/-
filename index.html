@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پکوانِ دل</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('FINAL%20LOGO%20.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #FFD700;
+        }
+
+        .section {
+            padding: 40px;
+            background-color: rgba(20, 20, 20, 0.8);
+            margin: 20px auto;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px dashed #777;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .contact h2 {
+            color: #FFD700;
+        }
+
+        .contact input, .contact textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #888;
+        }
+
+        .order-btn {
+            display: block;
+            width: max-content;
+            margin: 20px auto;
+            padding: 12px 25px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="FINAL%20LOGO%20.jpg" alt="Logo">
+        <h1>پکوانِ دل</h1>
+    </header>
+
+    <div class="section">
+        <h2>Biryani</h2>
+        <h3>Half Box</h3>
+        <div class="menu-item">Chicken Biryani <span class="price">390</span></div>
+        <div class="menu-item">Beef Biryani <span class="price">450</span></div>
+        <div class="menu-item">Qeema Biryani <span class="price">390</span></div>
+        <div class="menu-item">Sada Biryani <span class="price">300</span></div>
+        <h3>Full Box</h3>
+        <div class="menu-item">Chicken Biryani <span class="price">550</span></div>
+        <div class="menu-item">Beef Biryani <span class="price">600</span></div>
+        <div class="menu-item">Qeema Biryani <span class="price">550</span></div>
+        <div class="menu-item">Sada Biryani <span class="price">450</span></div>
+        <h3>Extras</h3>
+        <div class="menu-item">Cold Drink 1\2 Litre <span class="price">120</span></div>
+        <div class="menu-item">Sada Raita <span class="price">30</span></div>
+        <div class="menu-item">Special Raita <span class="price">80</span></div>
+    </div>
+
+    <div class="section">
+        <h2>Pulao</h2>
+        <h3>Half Box</h3>
+        <div class="menu-item">Chicken Pulao <span class="price">360</span></div>
+        <div class="menu-item">Beef Pulao <span class="price">430</span></div>
+        <div class="menu-item">Special Mootia Pulao <span class="price">600</span></div>
+        <div class="menu-item">Channa Pulao <span class="price">300</span></div>
+        <div class="menu-item">Ande Aalu Ki Biryani <span class="price">300</span></div>
+        <h3>Full Box</h3>
+        <div class="menu-item">Chicken Pulao <span class="price">530</span></div>
+        <div class="menu-item">Beef Pulao <span class="price">560</span></div>
+        <div class="menu-item">Special Mootia Pulao <span class="price">800</span></div>
+        <div class="menu-item">Channa Pulao <span class="price">480</span></div>
+        <div class="menu-item">Ande Aalu Ki Biryani <span class="price">480</span></div>
+    </div>
+
+    <div class="section">
+        <h2>Chinese Dishes</h2>
+        <div class="menu-item">Chicken Spaghetti <span class="price">450</span></div>
+        <div class="menu-item">Chicken & Vegetable Spaghetti <span class="price">500</span></div>
+        <div class="menu-item">Chinese Rice <span class="price">500</span></div>
+        <div class="menu-item">Chinese Rice with Chicken Jalfrezi <span class="price">650</span></div>
+    </div>
+
+    <div class="section">
+        <h2>Special Achaari Dishes</h2>
+        <div class="menu-item">Achari Chicken (half plate) <span class="price">450</span></div>
+        <div class="menu-item">Achaar Gosht (half plate) <span class="price">590</span></div>
+        <div class="menu-item">Achaari Chicken (full plate) <span class="price">600</span></div>
+        <div class="menu-item">Achaar Gosht (full plate) <span class="price">1180</span></div>
+    </div>
+
+    <div class="section">
+        <h2>Special Menu</h2>
+        <h3>Half Plate</h3>
+        <div class="menu-item">Chicken Karahi <span class="price">550</span></div>
+        <div class="menu-item">White Chicken <span class="price">550</span></div>
+        <div class="menu-item">Tandoori Chicken <span class="price">550</span></div>
+        <div class="menu-item">Beef Shahi Qorma <span class="price">650</span></div>
+        <div class="menu-item">Chicken Shahi Qorma <span class="price">550</span></div>
+        <h3>Full Plate</h3>
+        <div class="menu-item">Chicken Karahi <span class="price">750</span></div>
+        <div class="menu-item">White Chicken <span class="price">750</span></div>
+        <div class="menu-item">Tandoori Chicken <span class="price">750</span></div>
+        <div class="menu-item">Beef Shahi Qorma <span class="price">850</span></div>
+        <div class="menu-item">Chicken Shahi Qorma <span class="price">750</span></div>
+        <h3>1/2 Kilo</h3>
+        <div class="menu-item">Chicken Karahi <span class="price">1150</span></div>
+        <div class="menu-item">White Chicken <span class="price">1300</span></div>
+        <div class="menu-item">Tandoori Chicken <span class="price">1250</span></div>
+        <div class="menu-item">Beef Shahi Qorma <span class="price">1550</span></div>
+        <div class="menu-item">Chicken Shahi Qorma <span class="price">1300</span></div>
+        <h3>1 Kilo</h3>
+        <div class="menu-item">Chicken Karahi <span class="price">2100</span></div>
+        <div class="menu-item">White Chicken <span class="price">2200</span></div>
+        <div class="menu-item">Tandoori Chicken <span class="price">2150</span></div>
+        <div class="menu-item">Beef Shahi Qorma <span class="price">2400</span></div>
+        <div class="menu-item">Chicken Shahi Qorma <span class="price">2200</span></div>
+    </div>
+
+    <div class="section">
+        <h2>Office Menu</h2>
+        <div class="menu-item">Monday: Any Daal <span class="price">300</span></div>
+        <div class="menu-item">Tuesday: Any Chicken Karahi <span class="price">400</span></div>
+        <div class="menu-item">Wednesday: Any Sabzi <span class="price">300</span></div>
+        <div class="menu-item">Thursday: Any Qeema <span class="price">400</span></div>
+        <div class="menu-item">Friday: Any Pulao or Biryani <span class="price">400</span></div>
+    </div>
+
+    <a class="order-btn" href="https://wa.me/923347328227" target="_blank">📦 Place Your Order Here</a>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: +92 334-7328227</p>
+        <p>Address: Academy Road, Lahore Cantt</p>
+        <form>
+            <input type="text" placeholder="Your Name"><br>
+            <input type="email" placeholder="Your Email"><br>
+            <textarea placeholder="Your Message"></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2025 پکوانِ دل. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
